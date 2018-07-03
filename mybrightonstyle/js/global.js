@@ -28,7 +28,7 @@ $(function() {
 		if(whichStyle(styles) == 'urban') { $('#result').css({background: '#a8ae9c'}); }
 		if(whichStyle(styles) == 'colourriot') { $('#result').css({background: '#add4d6'}); }
 		if(whichStyle(styles) == 'minimalist') { $('#result').css({background: '#dad8d6'}); }
-		setTimeout(function() {window.location.href = "result/"+whichStyle(styles)+".html"}, 800);
+		setTimeout(function() {window.location.href = "result/"+whichStyle(styles)+".html"}, 1200);
 	});
 
 
