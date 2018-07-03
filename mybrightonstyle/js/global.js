@@ -22,12 +22,13 @@ $(function() {
 		if ($(this).attr('data-style') == 'minimalist') { styles.minimalist++ };
 	})
 
+// this will get tallie up when the last question links to result and you change the #question7 to which ever amount of questions you have
 	$('#question7 .button').on('click', function() {
-		if(whichStyle(styles) == 'modernfeminine') { $('#result').css({background: '#f9cad0'}); }
+		if(whichStyle(styles) == 'modernfeminine') { $('#result').css({background: '#E12936'}); }
 		if(whichStyle(styles) == 'urban') { $('#result').css({background: '#a8ae9c'}); }
 		if(whichStyle(styles) == 'colourriot') { $('#result').css({background: '#add4d6'}); }
 		if(whichStyle(styles) == 'minimalist') { $('#result').css({background: '#dad8d6'}); }
-		setTimeout(function() {window.location.href = "result/"+whichStyle(styles)+""}, 600);
+		setTimeout(function() {window.location.href = "result/"+whichStyle(styles)+".html"}, 800);
 	});
 
 

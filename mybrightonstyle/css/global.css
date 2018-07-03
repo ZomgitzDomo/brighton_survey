@@ -180,7 +180,8 @@ header {
 
 .landing .container h1 {
 	font-size: 3.5em;
-	color: #fff;
+	font-weight: 800;
+	color: #5788a2;
 	margin: 0;
 	width: 100%;
 	line-height: 1em;
@@ -195,8 +196,8 @@ header {
 .landing .button {
 	height: 40px;
 	line-height: 40px;
-	border: 1px solid #fff;
-	color: #fff;
+	border: 1px solid #5788a2;
+	color: #5788a2;
 	text-transform: uppercase;
 	font-size: 0.8em;
 	text-decoration: none;
@@ -207,8 +208,8 @@ header {
 }
 
 .landing .button:hover {
-	background: #fff;
-	color: #191e22;
+	background: #5788a2;
+	color: white;
 }
 
 .landing .slideshow {
@@ -395,7 +396,7 @@ right:0;
 bottom:0;
 left:0;
 animation: wipe 1.5s forwards;
-background: #F0DFD7;
+background: #5788a2;
 }
 
 @keyframes wipe {
@@ -430,7 +431,7 @@ background: #F0DFD7;
 
 .question .answers .button {
 	padding: 10px 5px 10px 5px;
-	border: 1px solid #F0DFD7;
+	border: 1px solid #5788a2;
 	text-transform: uppercase;
 	font-size: 0.6em;
 	color: #191e22;
@@ -484,7 +485,8 @@ background: #F0DFD7;
 }
 
 .answers .button:hover {
-	background: #F0DFD7;
+	background: #5788a2;
+	color: white;
 }
 
 #email .row {
@@ -675,6 +677,7 @@ background: #F0DFD7;
 #follow .toggle {
 	display: block;
 	transform: rotate(90deg);
+	font-weight: 800;
 }
 
 #follow .links {
@@ -755,7 +758,7 @@ p.scrollMore {
 
 .banner .container h1 {
 	font-size: 5em;
-	color: #fff;
+	color: #5987A0;
 	margin: 0;
 	width: 100%;
 	line-height: 1em;
