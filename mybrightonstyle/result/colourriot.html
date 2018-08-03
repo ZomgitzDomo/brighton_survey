@@ -56,20 +56,35 @@
 
 <body id="#f6bdc5" class="">
 
-	<div class="header">
-		<a href="#default" class="logo"><img src="../img/brighton_logo.png" alt=""></a>
-		<div class="header-right">
-			<a class="active" href="#home">NEW ARRIVALS</a>
-			<a href="#">JEWELRY</a>
-			<a href="#">CHARMS</a>
-			<a href="#">HANDBAGS</a>
-			<a href="#">ACCESSORIES</a>
-			<a href="#">FOOTWEAR</a>
-			<a href="#">GIFTS</a>
-			<a href="#">PERSONALIZE</a>
+	<a href="#default" class="logo"><img src="../img/brighton_logo.png" alt=""></a>
+	<div class="topnav" id="myTopnav">
+
+	  <a href="#" class="">HOME</a>
+	  <a href="#">CHARMS</a>
+	  <a href="#">HANDBAGS</a>
+	  <a href="#" class="">ACCESSORIES</a>
+	  <a href="#">FOOTWEAR</a>
+	  <a href="#">GIFTS</a>
+	  <a href="#">PERSONALIZE</a>
+	  <div class="dropdown">
+		<button class="dropbtn">
+		  <i class="fa fa-caret-down"></i>
+		</button>
+		<div class="dropdown-content">
+		  <a href="#home" class="">Menu</a>
+		  <a href="#" class="">JEWELRY</a>
+		  <a href="#">CHARMS</a>
+		  <a href="#">HANDBAGS</a>
+		  <a href="#" class="">ACCESSORIES</a>
+		  <a href="#">FOOTWEAR</a>
+		  <a href="#">GIFTS</a>
+		  <a href="#">PERSONALIZE</a>
 		</div>
-		<hr>
+	  </div>
+	  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+
 	</div>
+	<hr>
 
 	<main>
 
@@ -77,7 +92,7 @@
 
 		<!-- Hero -->
 		<section class="banner section">
-			<div class="image-left" style="background-image: url('../img/belle1.png');"></div>
+			<div class="image-left" style="background-image: url('../img/bg1.jpg');"></div>
 			<div class="image-right" style="background-image: url('../img/model3.jpg');"></div>
 			<div class="cover"></div>
 			<div class="container">
@@ -241,7 +256,7 @@
 				<div class="container">
 					<h2>Belle Collection</h2>
 					<div class="row">
-
+						<!-- 1 -->
 						<div class="col l4 m4 s6 wow fadeIn" data-wow-delay=".5s">
 							<a href="https://www.brighton.com/product/totes/36956-203413/belle-jardin-fay-embroidered-tote.html" target="_blank">
 								<img src="../img/belle-7.jpg">
@@ -250,7 +265,7 @@
 							<p class="price">$330.00</p>
 							<a href="https://www.brighton.com/product/totes/36956-203413/belle-jardin-fay-embroidered-tote.html" class="button" target="_blank" onClick="ga('send', 'event', { eventCategory: 'Product Link', eventAction: 'click', eventLabel: 'Product Link'});">Shop Now</a>
 						</div>
-
+						<!-- 2 -->
 						<div class="col l4 m4 s6 wow fadeIn" data-wow-delay=".5s">
 							<a href="https://www.brighton.com/product/organizers/36956-202837/belle-jardin-belle-jardin-organizer.html" target="_blank">
 								<img src="../img/belle-8.jpg">
@@ -259,6 +274,7 @@
 							<p class="price">$220.00</p>
 							<a href="https://www.brighton.com/product/organizers/36956-202837/belle-jardin-belle-jardin-organizer.html" class="button" target="_blank" onClick="ga('send', 'event', { eventCategory: 'Product Link', eventAction: 'click', eventLabel: 'Product Link'});">Shop Now</a>
 						</div>
+						<!-- 3 -->
 
 						<div class="col l4 m4 s6 wow fadeIn" data-wow-delay=".5s">
 							<a href="https://www.brighton.com/product/necklaces/36956-202682/belle-jardin-belle-jardin-convertible-necklace.html" target="_blank">
@@ -268,6 +284,7 @@
 							<p class="price">$78.00</p>
 							<a href="https://www.brighton.com/product/necklaces/36956-202682/belle-jardin-belle-jardin-convertible-necklace.html" class="button" target="_blank" onClick="ga('send', 'event', { eventCategory: 'Product Link', eventAction: 'click', eventLabel: 'Product Link'});">Shop Now</a>
 						</div>
+						<!-- 4 -->
 
 						<div class="col l4 m4 s6 wow fadeIn" data-wow-delay=".5s">
 							<a href="https://www.brighton.com/product/bracelets/36956-202684/belle-jardin-belle-jardin-hinged-bangle.html" target="_blank">
@@ -277,6 +294,7 @@
 							<p class="price">$68.00</p>
 							<a href="https://www.brighton.com/product/bracelets/36956-202684/belle-jardin-belle-jardin-hinged-bangle.html" class="button" target="_blank" onClick="ga('send', 'event', { eventCategory: 'Product Link', eventAction: 'click', eventLabel: 'Product Link'});">Shop Now</a>
 						</div>
+						<!-- 5 -->
 
 						<div class="col l4 m4 s6 wow fadeIn" data-wow-delay=".5s">
 							<a href="https://www.brighton.com/product/totes/36956-203413/belle-jardin-fay-embroidered-tote.html" target="_blank">
@@ -286,6 +304,7 @@
 							<p class="price">$330.00</p>
 							<a href="https://www.brighton.com/product/totes/36956-203413/belle-jardin-fay-embroidered-tote.html" class="button" target="_blank" onClick="ga('send', 'event', { eventCategory: 'Product Link', eventAction: 'click', eventLabel: 'Product Link'});">Shop Now</a>
 						</div>
+						<!-- 6 -->
 
 						<div class="col l4 m4 s6 wow fadeIn" data-wow-delay=".5s">
 							<a href="https://www.brighton.com/product/totes/36956-203413/belle-jardin-fay-embroidered-tote.html" target="_blank">
@@ -300,7 +319,7 @@
 
 					<div class="row">
 						<div class="col l4 offset-l4 m4 offset-m4 s12">
-							<a class="shopall" href="http://www.hush-uk.com/modern_feminine" onClick="ga('send', 'event', { eventCategory: 'Product View All', eventAction: 'click', eventLabel: 'Product View All'});">Shop all</a>
+							<a class="shopall" href="https://www.brighton.com/searchx/0/0/1/1/?s=belle+jardin&g=Go" onClick="ga('send', 'event', { eventCategory: 'Product View All', eventAction: 'click', eventLabel: 'Product View All'});">Shop all</a>
 						</div>
 					</div>
 				</div>
@@ -310,180 +329,66 @@
 			<!-- Just For You Mobile -->
 
 			<!-- carousel on mobile - duplicate content from above -->
-			<!-- <section id="justforyou-mobile">
+			<section id="justforyou-mobile">
 				<div class="container">
-					<h2><img src="http://whatsmystylepersonality.com/img/justforyou.svg"></h2>
-					<div class="row carousel carousel1">
-
-
-						<div class="col l4 m4 s6">
-							<a href="https://www.hush-uk.com/womenswear/daywear/jackets/byron_jacket_nude.htm"  target="_blank">
-								<img src="http://hush-staging.awcoagency.com/assets/20161206_HUSH_187_031_sRGB.jpg">
-							</a>
-
-							<h3>Byron Jacket</h3>
-							<p class="price">£75</p>
-							<a href="https://www.hush-uk.com/womenswear/daywear/jackets/byron_jacket_nude.htm" class="button" target="_blank" onClick="ga('send', 'event', { eventCategory: 'Product Link', eventAction: 'click', eventLabel: 'Product Link'});">Shop Now</a>
-
-						</div>
-
-
-
-						<div class="col l4 m4 s6">
-							<a href="https://www.hush-uk.com/womenswear/daywear/jumpers_cardis/summer_cashmere_v_jumper_neon_pink_cashmere.htm"  target="_blank">
-								<img src="http://hush-staging.awcoagency.com/assets/20161205_HUSH_151_005_sRGB_1.jpg">
-							</a>
-
-							<h3>Cashmere Jumper</h3>
-							<p class="price">£125</p>
-							<a href="https://www.hush-uk.com/womenswear/daywear/jumpers_cardis/summer_cashmere_v_jumper_neon_pink_cashmere.htm" class="button" target="_blank" onClick="ga('send', 'event', { eventCategory: 'Product Link', eventAction: 'click', eventLabel: 'Product Link'});">Shop Now</a>
-
-						</div>
-
-
-
-						<div class="col l4 m4 s6">
-							<a href="https://www.hush-uk.com/womenswear/daywear/jumpers_cardis/eve_jumper_ecru.htm"  target="_blank">
-								<img src="http://hush-staging.awcoagency.com/assets/20161204_HUSH_94_037_sRGB.jpg">
-							</a>
-
-							<h3>Eve Jumper</h3>
-							<p class="price">£79</p>
-							<a href="https://www.hush-uk.com/womenswear/daywear/jumpers_cardis/eve_jumper_ecru.htm" class="button" target="_blank" onClick="ga('send', 'event', { eventCategory: 'Product Link', eventAction: 'click', eventLabel: 'Product Link'});">Shop Now</a>
-
-						</div>
-
-
-
-						<div class="col l4 m4 s6">
-							<a href="https://www.hush-uk.com/womenswear/daywear/tops/york_off_shoulder_top_botanical_print.htm"  target="_blank">
-								<img src="http://hush-staging.awcoagency.com/assets/20161204_HUSH_103_021_sRGB.jpg">
-							</a>
-
-							<h3>York Off Shoulder Top</h3>
-							<p class="price">£55</p>
-							<a href="https://www.hush-uk.com/womenswear/daywear/tops/york_off_shoulder_top_botanical_print.htm" class="button" target="_blank" onClick="ga('send', 'event', { eventCategory: 'Product Link', eventAction: 'click', eventLabel: 'Product Link'});">Shop Now</a>
-
-						</div>
-
-
-
-						<div class="col l4 m4 s6">
-							<a href="https://www.hush-uk.com/womenswear/daywear/dresses_skirts/laurel_off_shoulder_dress_botanical_print.htm"  target="_blank">
-								<img src="http://hush-staging.awcoagency.com/assets/20161206_HUSH_204_004_sRGB_1.jpg">
-							</a>
-
-							<h3>Laurel Off Shoulder Dress</h3>
-							<p class="price">£85</p>
-							<a href="https://www.hush-uk.com/womenswear/daywear/dresses_skirts/laurel_off_shoulder_dress_botanical_print.htm" class="button" target="_blank" onClick="ga('send', 'event', { eventCategory: 'Product Link', eventAction: 'click', eventLabel: 'Product Link'});">Shop Now</a>
-
-						</div>
-
-
-
-						<div class="col l4 m4 s6">
-							<a href="https://www.hush-uk.com/womenswear/daywear/trousers_shorts/relaxed_trousers_1_botanical_print.htm"  target="_blank">
-								<img src="http://hush-staging.awcoagency.com/assets/20161206_HUSH_186_029_sRGB_1.jpg">
-							</a>
-
-							<h3>Relaxed Trousers</h3>
-							<p class="price">£45</p>
-							<a href="https://www.hush-uk.com/womenswear/daywear/trousers_shorts/relaxed_trousers_1_botanical_print.htm" class="button" target="_blank" onClick="ga('send', 'event', { eventCategory: 'Product Link', eventAction: 'click', eventLabel: 'Product Link'});">Shop Now</a>
-
-						</div>
-
-
-
-						<div class="col l4 m4 s6">
-							<a href="https://www.hush-uk.com/womenswear/daywear/jumpsuits_playsuits/shortsleeve_emma_playsuit_anemone.htm"  target="_blank">
-								<img src="http://hush-staging.awcoagency.com/assets/20161206_HUSH_222_003_sRGB_170221_102947.jpg">
-							</a>
-
-							<h3>S/S Emma Playsuit</h3>
-							<p class="price">£59</p>
-							<a href="https://www.hush-uk.com/womenswear/daywear/jumpsuits_playsuits/shortsleeve_emma_playsuit_anemone.htm" class="button" target="_blank" onClick="ga('send', 'event', { eventCategory: 'Product Link', eventAction: 'click', eventLabel: 'Product Link'});">Shop Now</a>
-
-						</div>
-
-
-
-						<div class="col l4 m4 s6">
-							<a href="https://www.hush-uk.com/womenswear/daywear/dresses_skirts/cerys_shirred_dress_salute.htm"  target="_blank">
-								<img src="http://hush-staging.awcoagency.com/assets/20161206_HUSH_215_004_sRGB_170221_104142.jpg">
-							</a>
-
-							<h3>Cerys Shirred Dress</h3>
-							<p class="price">£120</p>
-							<a href="https://www.hush-uk.com/womenswear/daywear/dresses_skirts/cerys_shirred_dress_salute.htm" class="button" target="_blank" onClick="ga('send', 'event', { eventCategory: 'Product Link', eventAction: 'click', eventLabel: 'Product Link'});">Shop Now</a>
-
-						</div>
-
-
-
-						<div class="col l4 m4 s6">
-							<a href="https://www.hush-uk.com/womenswear/daywear/dresses_skirts/venice_beach_dress_2_anemone.htm"  target="_blank">
-								<img src="http://hush-staging.awcoagency.com/assets/20161206_HUSH_202_016_sRGB_1.jpg">
-							</a>
-
-							<h3>Venice Beach Dress</h3>
-							<p class="price">£40</p>
-							<a href="https://www.hush-uk.com/womenswear/daywear/dresses_skirts/venice_beach_dress_2_anemone.htm" class="button" target="_blank" onClick="ga('send', 'event', { eventCategory: 'Product Link', eventAction: 'click', eventLabel: 'Product Link'});">Shop Now</a>
-
-						</div>
-
-
-
-
-					</div>
+					<h2>Belle Collection</h2>
 					<div class="row">
-						<div class="col l4 offset-l4 m4 offset-m4 s12">
-							<a class="shopall" href="http://www.hush-uk.com/modern_feminine" target="_blank" onClick="ga('send', 'event', { eventCategory: 'Product View All', eventAction: 'click', eventLabel: 'Product View All'});">Shop all</a>
+
+
+						<div class="col l4 m4 s6">
+							<a href="https://www.brighton.com/product/totes/36956-203413/belle-jardin-fay-embroidered-tote.html" target="_blank">
+								<img src="../img/belle-7.jpg">
+							</a>
+
+							<h3>Belle Jardin Organizer</h3>
+							<p class="price">$220.00</p>
+
+
+						</div>
+
+
+
+						<div class="col l4 m4 s6">
+							<a href="https://www.brighton.com/product/organizers/36956-202837/belle-jardin-belle-jardin-organizer.html" target="_blank">
+								<img src="../img/belle-8.jpg">
+							</a>
+
+							<h3>Belle Jardin Organizer</h3>
+							<p class="price">$220.00</p>
+
+
+						</div>
+
+
+
+						<div class="col l4 m4 s6">
+							<a href="https://www.brighton.com/product/necklaces/36956-202682/belle-jardin-belle-jardin-convertible-necklace.html" target="_blank">
+								<img src="../img/belle-9.jpg">
+							</a>
+
+							<h3>Belle Jardin Convertible Necklace</h3>
+							<p class="price">$78.00</p>
+
+
+						</div>
+
+
+
+						<div class="col l4 m4 s6">
+							<a href="https://www.brighton.com/product/bracelets/36956-202684/belle-jardin-belle-jardin-hinged-bangle.html" target="_blank">
+								<img src="../img/belle-10.jpg">
+							</a>
+
+							<h3>Belle Jardin Hinged Bangle</h3>
+							<p class="price">$68.00</p>
+
+
 						</div>
 					</div>
 				</div>
-			</section> -->
+			</section>
 
-			<!-- Subscribe -->
-			<!-- <section id="email" class="section subscribe darker">
-				<div class="container">
 
-					<div class="row">
-						<div class="col s10 offset-s1 m8 offset-m2 l6 offset-l3">
-							<h4 class="underline">Stay In Touch</h4>
-							<p>For the chance to win tickets to our exclusive style launch party and hear about style talks, monogramming and denim personalisation workshops sign up below...</p>
-							<form action="https://awandco.createsend.com/t/i/s/mdjuht/" method="post" id="subForm">
-
-								<p>
-									<select id="fieldfuthut" name="cm-fo-futhut" pl>
-										<option value="">Title</option>
-										<option value="860986">Mr</option>
-										<option value="860987">Mrs</option>
-										<option value="860988">Miss</option>
-										<option value="860989">Ms</option>
-										<option value="860990">Dr</option>
-									</select>
-								</p>
-								<p>
-									<input id="fieldfttkli" name="cm-f-fttkli" type="text" placeholder="First Name" />
-								</p>
-								<p>
-									<input id="fieldfttkld" name="cm-f-fttkld" type="text" placeholder="Surname" />
-								</p>
-								<p>
-									<input id="fieldEmail" name="cm-mdjuht-mdjuht" type="email" placeholder="Email Address" required />
-								</p>
-
-								<input type="hidden" id="fieldfujtrk" name="cm-f-fujtrk" value="Modern Feminine" />
-
-								<p>
-									<button type="submit" class="underline">Submit</button>
-								</p>
-							</form>
-						</div>
-					</div>
-
-				</div>
-			</section> -->
 
 			<!-- Take It again -->
 
@@ -492,66 +397,6 @@
 					<h4 class="underline"><a href="../index.html">Want to take the Brighton Style quiz again?</a></h4>
 				</div>
 			</section>
-
-			<!-- See The Others -->
-
-			<!-- <section id="seetheothers" class="section darker">
-				<div class="container">
-					<div class="row">
-						<div class="col s10 offset-s1 m8 offset-m2 l6 offset-l3">
-							<h4 class="underline">See the others...</h4>
-
-							<p>Monochrome and tailored or bright and colourful? Scandi-cool or feminine and styled? See the other personalities...<br /></p>
-
-						</div>
-					</div>
-					<div class="row">
-						<div class="carousel carousel2 wow fadeIn">
-
-							<div>
-								<a href="http://whatsmystylepersonality.com/result/minimalist">
-									<img src="http://hush-staging.awcoagency.com/assets/Minimalist-See-Others.jpg">
-								</a>
-
-
-
-								<h5 class="underline"><a href="http://whatsmystylepersonality.com/result/minimalist">Minimalist</a></h5><br>
-								<a href="http://whatsmystylepersonality.com/result/minimalist" class="button viewStyle">View The Style</a>
-							</div>
-							<div>
-								<a href="http://whatsmystylepersonality.com/result/colourriot">
-									<img src="http://hush-staging.awcoagency.com/assets/Colour-Riot-See-Others.jpg">
-								</a>
-
-
-
-								<h5 class="underline"><a href="http://whatsmystylepersonality.com/result/colourriot">Colour Riot</a></h5><br>
-								<a href="http://whatsmystylepersonality.com/result/colourriot" class="button viewStyle">View The Style</a>
-							</div>
-							<div>
-								<a href="http://whatsmystylepersonality.com/result/urban">
-									<img src="http://hush-staging.awcoagency.com/assets/Urban-See-Others.jpg">
-								</a>
-
-
-
-								<h5 class="underline"><a href="http://whatsmystylepersonality.com/result/urban">Urban</a></h5><br>
-								<a href="http://whatsmystylepersonality.com/result/urban" class="button viewStyle">View The Style</a>
-							</div>
-
-						</div>
-					</div>
-				</div>
-				<div class="container">
-					<div class="credit">
-						<a class="logo" href="#" target="_blank" onClick="ga('send', 'event', { eventCategory: 'Hush Site', eventAction: 'click', eventLabel: 'Hush Site'});"><img src="../img/brighton_logo.png"></a>
-						<p>&copy;2018 Brighton. All Rights Reserved.<br/>
-						</div>
-
-					</div>
-				</section> -->
-
-
 
 
 			</main>
