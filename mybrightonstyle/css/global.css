@@ -268,6 +268,8 @@ main {
 }
 
 .landing .wrap {
+	background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
 	animation: slide-up 0.6s ease forwards 0.3s;
 	opacity: 0;
 	transform: translateY(30px);
@@ -372,55 +374,55 @@ main {
 	}
 
 	#image-left-slide-1 {
-		background-image:url('../../brighton/assets/model1.jpg');
+		background-image:url('../brighton/assets/model1.jpg');
 	}
 
 	#image-left-slide-2 {
-		background-image:url('../../brighton/assets/model2.jpg');
+		background-image:url('../brighton/assets/model2.jpg');
 	}
 
 	#image-left-slide-3 {
-		background-image:url('../../brighton/assets/model3.jpg');
+		background-image:url('../brighton/assets/model3.jpg');
 	}
 
 	#image-left-slide-4 {
-		background-image:url('../../brighton/assets/img4.jpg');
+		background-image:url('../brighton/assets/img4.jpg');
 	}
 
 	#image-left-slide-5 {
-		background-image:url('../../brighton/assets/img1.jpg');
+		background-image:url('../brighton/assets/img1.jpg');
 	}
 
 	#image-left-slide-6 {
-		background-image:url('../../brighton/assets/img2.jpg');
+		background-image:url('../brighton/assets/img2.jpg');
 	}
 
 	#image-left-slide-7 {
-		background-image:url('../../brighton/assets/img3.jpg');
+		background-image:url('../brighton/assets/img3.jpg');
 	}
 
 	#image-left-slide-8 {
-		background-image:url('../../brighton/assets/model4.jpg');
+		background-image:url('../brighton/assets/model4.jpg');
 	}
 
 	#image-right-slide-1 {
-		background-image:url('../../brighton/assets/img1.jpg');
+		background-image:url('../brighton/assets/img1.jpg');
 	}
 
 	#image-right-slide-2 {
-		background-image:url('../../brighton/assets/img1.jpg');
+		background-image:url('../brighton/assets/img1.jpg');
 	}
 
 	#image-right-slide-3 {
-		background-image:url('../../brighton/assets/img1.jpg');
+		background-image:url('../brighton/assets/img1.jpg');
 	}
 
 	#image-right-slide-4 {
-		background-image:url('../../brighton/assets/model4.jpg');
+		background-image:url('../brighton/assets/model4.jpg');
 	}
 
 	#image-right-slide-5 {
-		background-image:url('../../brighton/assets/model1.jpg');
+		background-image:url('../brighton/assets/model1.jpg');
 	}
 
 	#image-right-slide-6 {
@@ -428,11 +430,11 @@ main {
 	}
 
 	#image-right-slide-7 {
-		background-image:url('../../brighton/assets/model3.jpg');
+		background-image:url('../brighton/assets/model3.jpg');
 	}
 
 	#image-right-slide-8 {
-		background-image:url('../../brighton/assets/img4.jpg');
+		background-image:url('../brighton/assets/img4.jpg');
 	}
 
 
