@@ -90,49 +90,6 @@ $(function() {
 		autoplaySpeed: 2000
 	});
 
-	/* $('#videoslider').on('init', function(event, slick, currentSlide, nextSlide){
-    	$('#vid').get(0).play();
-	}); */
-	$('.carousel1').slick({
-		arrows: true,
-		infinite: true,
-		slidesToShow: 1,
-		slidesToScroll: 1,
-		nextArrow: '<img src="brighton/img/arrow.svg" class="arrow arrow-right">',
-		prevArrow: '<img src="brighton/img/arrow.svg" class="arrow arrow-left">',
-		adaptiveHeight: true,
-		mobileFirst: true,
-		responsive: [
-		  {
-	      breakpoint: 601,
-	      settings: {
-	        slidesToShow: 2
-	      }
-	      }
-		]
-
-	});
-
-
-	$('.carousel2').slick({
-		arrows: true,
-		infinite: true,
-		slidesToShow: 1,
-		slidesToScroll: 1,
-		nextArrow: '<img src="brighton//img/arrow.svg" class="arrow arrow-right">',
-		prevArrow: '<img src="brighton/img/arrow.svg" class="arrow arrow-left">',
-		adaptiveHeight: true,
-		mobileFirst: true,
-		responsive: [
-		  {
-	      breakpoint: 601,
-	      settings: {
-	        slidesToShow: 3
-	      }
-	      }
-		]
-	});
-
 	$('.share').on('click', function() {
 		$('#share').addClass('open');
 		return false;

@@ -6,11 +6,11 @@ body {
 	text-align: center;
 	color: #191e22;
 }
-	
+
 h1, h2, h3, .serif {
 	font-family: "ambroise-std",serif;
 	font-style: normal;
-	font-weight: 300;
+	font-weight: 800;
 	letter-spacing: -0.02em;
 }
 
@@ -29,4 +29,8 @@ p.book {
 
 p.small {
 	font-size: 0.8em;
+}
+
+.question a p {
+	margin-bottom: 3em;
 }

@@ -1,8 +1,18 @@
 .wrap p {
-  color: #5987A0;
+  color: white;
+  font-weight: 400;
 }
 
 #justforyou h2 {
   font-size: 6em;
   margin-bottom: 1em;
+}
+
+.ferrara-text {
+	color: white !important;
+}
+
+.ferrara-text-black {
+  color: black !important;
+  font-weight: 800 !important;
 }
