@@ -517,8 +517,8 @@ div.slick-track div {
 @media only screen and (min-width: 601px) {
 	.question .container {
 		position: relative;
-		top: 90%;
-		transform: translateY(-50%);
+		top: 0%;
+		/* transform: translateY(-50%); */
 	}
 
 }
@@ -526,8 +526,8 @@ div.slick-track div {
 @media only screen and (min-width: 2000px) {
 	.question .container {
 		position: relative;
-		top: 50%;
-		transform: translateY(-50%);
+		top: 0%;
+		/* transform: translateY(-50%); */
 	}
 
 }
@@ -547,7 +547,7 @@ div.slick-track div {
 }
 
 .question .question-margin {
-	margin-top: 4em;
+	/* margin-top: 4em; */
 }
 
 
